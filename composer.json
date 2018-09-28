@@ -1,0 +1,31 @@
+{
+    "name": "whatson-web/messagebird-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle to easily integrate MessageBird SDK into a Symfony project.",
+    "keywords": [
+        "bundle",
+        "symfony",
+        "messagebird",
+        "php",
+        "sms",
+        "voice",
+        "chat"
+    ],
+    "homepage": "https://github.com/whatson-web/messagebird-bundle",
+    "license":  "MIT",
+    "authors": [
+        {
+            "name":     "Whatson Web - Developers",
+            "email":    "dev@whatson-web.com"
+        }
+    ],
+    "require": {
+        "messagebird/php-rest-api": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "WH\\SystemPayBundle\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}

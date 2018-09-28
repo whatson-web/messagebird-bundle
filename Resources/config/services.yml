@@ -1,0 +1,8 @@
+parameters:
+    wh.message_bird.client.class: WH\Bundle\MessageBirdBundle\MessageBird\MessageBirdClient
+
+services:
+    wh.message_bird.client:
+        class: "%wh.message_bird.client.class%"
+        arguments: ["%wh_message_bird.api_key%"]
+        lazy: true
