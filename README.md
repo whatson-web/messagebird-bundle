@@ -26,7 +26,7 @@ public function registerBundles()
 And set-up the required configuration
 
 ``` yaml
-# app/config/config.yml
+# config/packages/wh_message_bird.yml
 wh_message_bird:
     api_key: "xxxxxxxxxxxxxxxxx" # The MessageBird API key can be added as a symfony parameter
 ```
