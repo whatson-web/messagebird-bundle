@@ -1,6 +1,6 @@
 <?php
 
-namespace WH\Bundle\MessageBirdBundle\MessageBird;
+namespace WH\MessageBirdBundle\MessageBird;
 
 use MessageBird\Client as BaseClient;
 use MessageBird\Common\HttpClient;

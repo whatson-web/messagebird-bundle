@@ -1,5 +1,5 @@
 parameters:
-    wh.message_bird.client.class: WH\Bundle\MessageBirdBundle\MessageBird\MessageBirdClient
+    wh.message_bird.client.class: WH\MessageBirdBundle\MessageBird\MessageBirdClient
 
 services:
     wh.message_bird.client:

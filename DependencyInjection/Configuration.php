@@ -1,6 +1,6 @@
 <?php
 
-namespace WH\Bundle\MessageBirdBundle\DependencyInjection;
+namespace WH\MessageBirdBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

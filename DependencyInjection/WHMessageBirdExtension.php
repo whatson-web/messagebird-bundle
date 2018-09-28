@@ -1,6 +1,6 @@
 <?php
 
-namespace WH\Bundle\MessageBirdBundle\DependencyInjection;
+namespace WH\MessageBirdBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
