@@ -1,6 +1,6 @@
 <?php
 
-namespace WH\Bundle\MessageBirdBundle;
+namespace WH\MessageBirdBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
